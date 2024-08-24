@@ -8,6 +8,24 @@ function findShortestString(arr) {
   return minStr;
 }
 
+// function findShortestString(arr) {
+//   // type your code here
+//   let shortestStr = arr[0];
+//   arr.forEach(str => {
+//     if (str.length < shortestStr.length)
+//       shortestStr = str;
+//   });
+
+//   return shortestStr;
+// }
+
+// function findShortestString(arr) {
+//   // type your code here
+//   return arr.reduce((shortestStr, str) => 
+//       str.length < shortestStr.length ?  str : shortestStr
+//     , arr[0]);
+// }
+
 if (require.main === module) {
   // add your own tests in here
   console.log("Expecting: 'a'");
